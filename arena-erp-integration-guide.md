@@ -1,11 +1,13 @@
 # Arena -- ERP/MES Integrations Guide
 
+Version: Draft
+
 ## Abstract
 
 This document serves as a comprehensive guide for Arena partners and
 customers looking to create integrations between Arena and ERP/MES
 systems. It outlines essential preparations, resources,
-responsibilities, and various use cases for successful integrations.
+responsibilities, and various use cases for successful integrations. This guide is provided as-is, based on best practices of Arena team with customers and partners. It is up to the user to review and determine best practice for a specific use case.
 
 ## Audience
 
@@ -18,7 +20,7 @@ Your team should review Arena documentation and recorded events provided
 as part of onboarding. This material should provide you with a good
 understanding of the following:
 
--   Complete Arena 101 for Integrations training to understand
+-   Complete Arena 101 for Integrations training to understand (Training link to be provided in future.)
 
     -   Lifecycles
 
@@ -38,7 +40,7 @@ understanding of the following:
 
     -   File Editions
 
--   Complete Arena Developer Platform training to understand
+-   Complete Arena Developer Platform training to understand (https://github.com/ptc-arena/arena-integration-education)
 
     -   Arena REST API
 
@@ -267,8 +269,6 @@ necessary. Consider the following when assembling technical resources.
 
 -   First-time sync processes
 
-    -   
-
 -   Frequency of integration activity
 
     -   There may be more than one event that occurs between the
@@ -347,13 +347,7 @@ necessary. Consider the following when assembling technical resources.
         created as user groups. Users can then be associated to a number
         of users groups to build up their specific access profile.
 
-    c.  Options --
-
-        i.  use one of the existing \"Level 1 - create/edit\" groups or
-
-        ii. create a new user group to manage a policy that is
-            restricted to create/edit mechanical items only (by
-            structural category).
+    c.  Options: use one of the existing \"Level 1 - create/edit\" groups or create a new user group to manage a policy that is restricted to create/edit mechanical items only (by structural category).
 
 5.  If we are using the Event Engine and triggers, what setup is needed
     that is done by Arena?
